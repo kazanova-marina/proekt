@@ -16,3 +16,11 @@ $(function(){
 	
 	$('#privet').click(function(){alert('Привет!')});
 });
+ 
+ $(document).on('click', '.order .del > div', function(){
+        tovarDelete(this);
+    });
+    
+    $(document).on('input', '.order .num > input', function(){
+        tovarChange(this);
+    });
