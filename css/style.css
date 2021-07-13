@@ -268,7 +268,7 @@ aside {
 	position: relative;
 }
 .catmenu_item:before {
-	content: "\2726";
+	
 	position: absolute;
 	left: 0;
 }
